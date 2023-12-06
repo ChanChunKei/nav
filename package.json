@@ -12,7 +12,7 @@
   "homepage": "https://github.com/xjh22222228/nav",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
     "setup": "tsc nav.config.ts && ts-node ./scripts/build.mjs",
     "build": "npm run setup && ng build --prod --base-href ./",
     "lint": "eslint --cache --ext .js,.ts ./src"
