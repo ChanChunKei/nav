@@ -2,7 +2,7 @@ import { IConfig } from './src/types'
 
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/hanxi/nav',
+  gitRepoUrl: 'https://github.com/ChanChunKei/nav',
 
   // 部署分支
   branch: 'main',
@@ -14,7 +14,7 @@ const c: IConfig = {
   showGithub: false,
 
   // 您的网站地址，有利于SEO
-  homeUrl: 'https://nav.hanxi.cc',
+  homeUrl: 'https://ChanChunKei.github.io/nav',
 
   // 网站标题
   title: '私人导航 - 涵曦的私人书签分享',
