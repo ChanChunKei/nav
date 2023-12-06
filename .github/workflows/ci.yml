@@ -11,12 +11,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.9.0] #指定node版本
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }} #使用action安装node环境
+      uses: actions/setup-node@v1
       with:
         persist-credentials: false
-    - name: Install and Build
+        node-version: ${{ matrix.node-version }}
+    - name: ssh scp ssh pipelines
       run: |
         npm install
         npm run build
@@ -26,4 +30,3 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         BRANCH: gh-pages
         FOLDER: dist
-        node-version: 16.17.1
