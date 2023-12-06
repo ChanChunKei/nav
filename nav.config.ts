@@ -17,10 +17,10 @@ const c: IConfig = {
   homeUrl: 'https://ChanChunKei.github.io/nav',
 
   // 网站标题
-  title: '私人导航 - 守正的私人书签分享',
+  title: '私人导航 - 守正的私人书签',
 
   // 网站描述
-  description: '私人导航 - 守正的私人书签分享',
+  description: '私人导航 - 守正的私人书签',
 
   // 网站关键字
   keywords: '导航,书签',
@@ -31,7 +31,7 @@ const c: IConfig = {
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
   footerContent: `
     <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav.hanxi.info, All Rights Reserved</div>
+    <div>Copyright © 2018-2021 nav.shouzheng.info, All Rights Reserved</div>
   `,
 
   // 百度统计地址
