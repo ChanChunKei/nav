@@ -17,10 +17,10 @@ const c: IConfig = {
   homeUrl: 'https://ChanChunKei.github.io/nav',
 
   // 网站标题
-  title: '私人导航 - 涵曦的私人书签分享',
+  title: '私人导航 - 守正的私人书签分享',
 
   // 网站描述
-  description: '私人导航 - 涵曦的私人书签分享',
+  description: '私人导航 - 守正的私人书签分享',
 
   // 网站关键字
   keywords: '导航,书签',
