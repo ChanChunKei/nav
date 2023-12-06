@@ -13,7 +13,7 @@ export const TAG_PATH = 'data/tag.json'
 
 export const LOGO_PATH = 'logo.png'
 
-export const LOGO_CDN = getCDN('logo.png')
+export const LOGO_CDN = 'https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/nav-1691133333044-logo.png'
 
 export const VERSION = '5.3.0'
 
